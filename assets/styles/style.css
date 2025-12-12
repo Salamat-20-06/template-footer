@@ -1,6 +1,8 @@
 @import url('./font.css');
 @import url('./reset.css');
 
+
+
 .header {
     position: absolute;
     top: 0;
@@ -104,18 +106,225 @@
 
 
 .hero__btn {
-    background: #5f73ff;
+    width: 200px;
+    height: 45px;
+    background: #2F80ED;
     color: #fff;
-    padding: 12px 28px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.2s;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0; 
+    transition: 0.3s;
 }
 
 .hero__btn:hover {
     background: #9da0b5;
 }
+
+.services {
+    padding: 80px 0 120px;
+    text-align: center;
+}
+
+.services__container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.services__title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.services__subtitle {
+    max-width: 800px;
+    margin: 0 auto 70px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.service__item {
+    width: 33%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.service__window {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.outer-circle {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e6e6e6;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.inner-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #4985FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.service__window img {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service__right h3 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.service__right p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 230px;
+    position: absolute;
+    align-self: start;
+}
+
+.services__btn-wrap {
+    text-align: center;
+}
+
+.services__btn {
+    width: 200px;
+    height: 48px;
+    background: #2F80ED;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.services__btn:hover {
+    background: #1572ff;
+}
+
+
+.about__us {
+    background: #F4F5F7;
+    padding: 100px 0 70px;
+}
+
+.about__us__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.about__us__left {
+    width: 50%;
+}
+
+.about__us__left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.about__us__left p {
+    color: #777;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.about__us__link {
+    color: #2F80ED;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about__us__right {
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    background: none; 
+}
+
+.about__us__right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+}
+
+
+.about__us__line {
+    max-width: 1200px;
+    height: 1px;
+    background: #E0E0E0;
+    margin: 60px auto;
+}
+
+.about__us__stats {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stat img {
+    width: 32px;
+    margin-bottom: 10px;
+}
+
+.stat h3 {
+    font-size: 24px;
+    font-weight: 400; 
+    margin-bottom: 3px;
+    color: #000;
+}
+
+.stat p {
+    color: #888; 
+    font-size: 14px;
+}
+
+
 
 
 
